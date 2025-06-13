@@ -1,6 +1,6 @@
 import WelcomeInfo from "@/components/home/WelcomeInfo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight,faLightbulb, faFaceSmile } from "@fortawesome/free-solid-svg-icons";
+import { faLightbulb, faFaceSmile } from "@fortawesome/free-solid-svg-icons";
 
 export default function section1() {
   return (

@@ -2,6 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import { Nunito } from "next/font/google";
 import { useRouter } from "next/router";
+import { Link } from "lucide-react";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -163,9 +164,10 @@ export default function SignupPage() {
 
         <p className="text-center text-sm text-gray-500 mt-6">
           Already have an account?{" "}
-          <a href="/login" className="text-yellow-500 hover:underline">
+          <Link href="/login" className="text-yellow-500 hover:underline">
             Log in
-          </a>
+          </Link>
+          
         </p>
       </div>
     </div>
