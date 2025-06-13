@@ -1,28 +1,22 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBookOpen, faMusic, faComments, faHandHoldingHeart } from "@fortawesome/free-solid-svg-icons";
-
+import { faLaptopCode, faGamepad, faD } from "@fortawesome/free-solid-svg-icons";
 const features = [
   {
-    icon: faBookOpen,
-    title: "Healing Reads",
-    desc: "Read to understand yourself and see the world more gently.",
+    icon: faLaptopCode,
+    title: "Website",
+    desc: "I created a website to showcase the projects and experiences I gained",
   },
   {
-    icon: faMusic,
-    title: "Audio Healing",
-    desc: "Sounds that bring you back to peace, whether it's meditation or words from the heart.",
+    icon: faGamepad,
+    title: "Spot the Difference Game",
+    desc: "I used AI to generate images for creating a Spot the Difference game.",
   },
   {
-    icon: faComments,
-    title: "Talk Space",
-    desc: "Because sometimes...just speaking out can help more than you think.",
-  },
-  {
-    icon: faHandHoldingHeart,
-    title: "Healing Activities",
-    desc: "A small activity to check in with yourself and recharge your heart.",
-  },
-];
+    icon: faD,
+    title: "LuckyDose",
+    desc: "I was assigned to migrate collection data and add new collections to the website.",
+  }
+]
 
 export default function section2() {
   return (
@@ -31,15 +25,14 @@ export default function section2() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
         <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mb-2 md:mb-4">
-          Explore Your Healing Space
+          My Internship Project
         </h2>
 
         <p className="text-gray-900 text-base sm:text-lg max-w-2xl mx-auto mb-6 md:mb-12 ">
-          Choose what your heart needs today. <br / >
-          Let yourself feel, breathe, and be.
+          Tasks and Projects Assigned During My Internship at Synora Lab
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-6 max-w-[95%] mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 max-w-[80%] mx-auto">
 
           {features.map((item, idx) => (
             <div

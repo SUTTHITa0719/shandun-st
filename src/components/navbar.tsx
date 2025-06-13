@@ -19,11 +19,11 @@ export default function Navbar() {
     <div className={`${nunito.variable} font-nunito w-full bg-white shadow-sm`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-gray-900 text-lg font-semibold flex items-center">
+        <Link href="/" className="text-gray-900 text-lg font-semibold flex items-center">
           <span>T_ST_1079</span>
           <FontAwesomeIcon icon={faFeather} className="ml-2 text-gray-900" />
-        </div>
-
+        </Link>
+       
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-10">
           <Link href="/" className="text-gray-900 hover:underline">
@@ -64,17 +64,17 @@ export default function Navbar() {
           <Link href="/about" className="block text-gray-900">
             ABOUT
           </Link>
-          <Link href="/" className="block text-gray-900">
+          <Link href="/contact" className="block text-gray-900">
             CONTACT
           </Link>
-          <Link href="/" className="block text-gray-900">
+          <Link href="/gallery" className="block text-gray-900">
             GALLERY
           </Link>
           <hr className="border-gray-300" />
-          <Link href="/" className="block text-gray-900">
+          <Link href="/login" className="block text-gray-900">
             Login
           </Link>
-          <Link href="/" className="block text-gray-900 ">
+          <Link href="/sigup" className="block text-gray-900 ">
             Sign up
           </Link>
         </div>

@@ -14,9 +14,9 @@ export default function RootLayout({ children }: LayoutProps) {
         <Navbar />
       </header>
       {children}
-      {/* <footer>
+      <footer>
         <Footer />
-      </footer> */}
+      </footer>
     </>
   );
 }

@@ -15,7 +15,7 @@ export default function HomePage() {
 
       <Section1 />
       <Section2 />
-      <Section3 />
+      {/* <Section3 /> */}
   
     </div>
   );

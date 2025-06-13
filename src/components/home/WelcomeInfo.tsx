@@ -10,7 +10,7 @@ export default function WelcomeInfo() {
 
         <div className="bg-gray-100 rounded-xl p-5">
           <div className="bg-yellow-400 w-8 h-8 rounded-full mb-4 justify-self-end" />
-          <p className="text-sm text-gray-400 md:mt-10">+25.5%</p>
+          {/* <p className="text-sm text-gray-400 md:mt-10">+25.5%</p> */}
           <p className="text-2xl sm:text-3xl font-bold text-gray-800 mt-2">Hello!</p>
           <p className="text-lg sm:text-xl font-bold text-gray-800 mb-2">Welcome to the website</p>
           <p className="text-xs text-right text-gray-400 mt-4 md:mt-10">I hope you like it!</p>
@@ -34,26 +34,28 @@ export default function WelcomeInfo() {
 
       {/* Right */}
       <div className="flex flex-col gap-4">
-        <div className="rounded-xl overflow-hidden shadow-sm">
-            
+         <div className="rounded-xl overflow-hidden shadow-sm">
           <Image
-            src="/photo/view.jpg"
-            alt="View"
-            width={600}
-            height={400}
-            className="object-cover w-full h-[200px] sm:h-[230px] lg:h-[250px]"
-          />
-        </div>
-
-        <div className="rounded-xl overflow-hidden shadow-sm">
-          <Image
-            src="/photo/chiw.jpg"
+            src="/photo/synoralab-share.png"
             alt="Smiling"
             width={600}
             height={400}
             className="object-cover w-full h-[240px] sm:h-[280px] lg:h-[300px]"
           />
         </div>
+
+        <div className="rounded-xl overflow-hidden shadow-sm">
+            
+          <Image
+            src="/photo/synora.jpg"
+            alt="synora"
+            width={600}
+            height={400}
+            className="object-cover w-full h-[200px] sm:h-[230px] lg:h-[250px]"
+          />
+        </div>
+
+       
       </div>
     </div>
   );
